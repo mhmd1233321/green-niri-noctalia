@@ -1,0 +1,27 @@
+🚀 Setup Guide (Universal)
+
+1. Requirements
+
+You need pywal and the visualizer tools installed.
+
+Arch/CachyOS: sudo pacman -S pywal cava cmatrix btop fastfetch fuzzel
+
+Fedora: sudo dnf install python3-pip && pip install pywal
+
+Debian/Ubuntu: sudo apt install python3-pip && pip install pywal
+
+2. Clone and Install
+
+Bash
+
+git clone https://github.com/mhmd1233321/dark-red-noctalia.git
+
+cd green-niri-noctalia
+
+# Copy configs to your config directory
+
+cp -r niri/ kitty/ fuzzel/ cava/ ~/.config/
+
+3. Important Note
+
+This configuration assumes you are using Niri (Wayland). If you are using a different WM (like Hyprland or Sway), you may need to adjust the autostart and window rules in the config files.
