@@ -1,0 +1,12 @@
+// شيل البلوك القديم اللي عمل Error وحط هاد مكانه:
+window-rule {
+    // هاد السطر بخلي القاعدة تطبق على الكل بدون Match معين
+    // بـ Niri، الـ Blur بكون جزء من الـ draw-soft-shadow أو بكون بداخل animations
+    // لكن الأصح بـ Noctalia تحطه هيك:
+
+    geometry-corner-radius 20
+    clip-to-geometry true
+}
+
+// لتخفيف الـ Blur بـ Niri، عدل بلوك الـ animations (إذا موجود بملف animation.kdl)
+// أو ضيف هاد السطر بداخل الـ window-rule الأساسي إذا كانت النسخة بتدعمها:

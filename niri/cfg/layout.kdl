@@ -1,0 +1,14 @@
+layout {
+    // السطر الأهم في تاريخ الـ Rice تبعك:
+    background-color "transparent"
+
+    gaps 8
+    center-focused-column "never"
+
+    focus-ring {
+        width 0
+        active-color "#ffffff"
+        inactive-color "#444444"
+
+    }
+}

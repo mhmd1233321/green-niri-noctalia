@@ -1,0 +1,16 @@
+// ابحث عن قسم الـ Blur بداخل الـ window-rules
+window-rule {
+    // هاي الإعدادات بتخلي الـ Blur أنعم وأخف
+    geometry-corner-radius 12
+    clip-to-geometry true
+
+    block-out-blur
+
+    // هون الشغل: قلل الـ radius والـ sigma عشان يخف الـ Blur
+    layer "top" {
+        blur {
+            radius 10  // كل ما قل هاد الرقم بصير الـ Blur أخف
+            sigma 2    // هاد بتحكم بمدى "تشتت" الضوء، خليه قليل
+        }
+    }
+}
