@@ -14,7 +14,7 @@ Debian/Ubuntu: sudo apt install python3-pip && pip install pywal
 
 Bash
 
-git clone https://github.com/mhmd1233321/dark-red-noctalia.git
+https://github.com/mhmd1233321/green-niri-noctalia.git
 
 cd green-niri-noctalia
 
